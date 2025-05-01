@@ -1,0 +1,32 @@
+.teclado{
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,9rem);
+    gap: 1rem;
+
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.teclas {
+    font-size: 3rem;
+    border: 5px solid gray;
+    border-radius: 10px;
+    background-color: rgb(129, 66, 66);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teclas:hover{
+    background-color: skyblue;
+
+}
+
+.tecla-0{
+    grid-column: 1/3;
+}

@@ -1,0 +1,11 @@
+/* CSS del index*/
+
+#calculadora {
+    width: 40rem;
+    height: 70rem;
+    border: 2px solid black;
+    border-radius: 8px;
+
+    margin: auto;
+    margin-top: 10rem;
+}
